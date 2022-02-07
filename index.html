@@ -22,8 +22,13 @@
 
 <body>
 
-
-  <!-- <script src="" async defer></script> -->
+  <p id="message">Please view this website im desktop site mode</p>
+       <script>
+            if(window.innerWidth<500)
+            {
+              document.getElementById("message").style.display= "none";
+            }
+      </script>
   <div class="top-container">
     <img class="top-cloud" src="CSS - My Site Images\cloud.png" alt="cloud">
     <h1>I'm Vikas.</h1>
